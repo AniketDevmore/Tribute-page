@@ -1,0 +1,130 @@
+body {
+  background-color: #fff8bc;
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  color: rgba(255, 165, 0, 0.9);
+  font-weight: 900;
+  font-size: 1.5em;
+}
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: #ffd8a9;
+  border-width: 5px;
+}
+/* navigation bar */
+.nav {
+  background-color: yellow;
+  word-spacing: 1em;
+  padding: 3px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Heading section */
+#heading {
+  font-family: "Merriweather", sans-serif;
+  font-size: 1.2em;
+  color: rgb(255, 165, 0);
+  font-style: italic;
+  letter-spacing: 4px;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Introduction dection */
+.intro {
+  padding: 2% 15%;
+}
+.table-contain {
+  line-height: 3em;
+}
+
+/* Timeline section */
+
+.timeline {
+  margin: 3% 20%;
+  line-height: 2em;
+}
+
+/* conflict section */
+
+.conflict-bijapur {
+  width: 45%;
+  float: left;
+  margin-left: 3%;
+  text-align: justify;
+}
+.conflict-mughal {
+  width: 45%;
+  float: right;
+  margin-right: 3%;
+  text-align: justify;
+}
+
+/* coronation section */
+.coronation {
+  clear: both;
+  width: 45%;
+  float: left;
+  margin-left: 3%;
+  text-align: justify;
+}
+.coronation-img {
+  text-align: center;
+}
+
+/* ashta-pradhan-mandal */
+.ashta-pradhan-mandal {
+  width: 45%;
+  float: right;
+  margin-right: 3%;
+  text-align: justify;
+  font-size: 0.85rem;
+  line-height: 2rem;
+}
+
+#apna th,
+#apna td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* maratha-empire */
+.maratha-empire {
+  clear: both;
+  width: 60%;
+  margin: auto;
+  padding: 3% 0;
+  text-align: justify;
+}
+.empire-image {
+  text-align: center;
+}
+
+/* legacy */
+.legacy {
+  width: 60%;
+  margin: auto;
+  text-align: justify;
+  padding-bottom: 2%;
+}
+
+/* more-info */
+.more-info {
+  text-align: center;
+  background-color: #ffd8a9;
+  padding: 3% 0;
+}
+.wiki-link {
+  font-size: 1rem;
+  color: rgb(255, 165, 0);
+  font-weight: bold;
+}
+.wiki-link:hover {
+  color: #ff884b;
+}
